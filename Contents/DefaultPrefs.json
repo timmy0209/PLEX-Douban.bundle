@@ -1,0 +1,71 @@
+
+[
+ {
+    "id":"agent_select",
+    "label":"选择电影的刮削器",
+    "type": "enum",
+    "values": [
+      "douban",
+      "doubanapi"
+    ],
+    "default": "doubanapi"
+  },
+ {
+    "id":"tv_agent_select",
+    "label":"选择电视节目的刮削器",
+    "type": "enum",
+    "values": [
+      "douban",
+      "doubanapi"
+    ],
+    "default": "doubanapi"
+  },
+  {
+    "id":"ifproxy",
+    "label":"是否使用代理",
+    "type":"bool",
+    "default":"false"
+  },
+ {
+    "id":"ip_path",
+    "label":"临时存放代理ip的txt路径",
+    "type":"text",
+    "default":"E://iplist.txt"
+  },
+ {
+    "id":"ip_url",
+    "label":"代理IP提取链接",
+    "type":"text",
+    "default":"https://api.xiaoxiangdaili.com/ip/get?appKey=xxxxxxxxxx&appSecret=xxxxxxxxxx&cnt=&wt=text"
+  },
+  {
+    "id":"ifdownloadtrailer",
+    "label":"是否自动下载预告片（电影）",
+    "type":"bool",
+    "default":"false"
+  },
+ {
+    "id":"trailer_num",
+    "label":"添加预告片的最大数量",
+    "type":"text",
+    "default":"3"
+  },
+ {
+    "id":"short_num",
+    "label":"添加片段的最大数量",
+    "type":"text",
+    "default":"3"
+  },
+ {
+    "id":"behindthescenes_num",
+    "label":"添加花絮的最大数量",
+    "type":"text",
+    "default":"3"
+  },
+ {
+    "id":"other_num",
+    "label":"添加视频评论的最大数量",
+    "type":"text",
+    "default":"3"
+  },
+]
